@@ -1,0 +1,52 @@
+<Assets>
+<!-- neglect for now 
+    <AttractMusic file="data/toedit/Dread_p_-_16_-_War_Criminal.mp3"/>
+    <Musics folder="data/music/">
+        <Calibration name="Vienna Beat" link="https://freemusicarchive.org/music/Blue_Dot_Sessions/RadioPink/Vienna_Beat"/>
+    </Musics>
+    <SFXs folder="data/music/sounds/">
+        <SFX name="Button Scroll" path="button.ogg"/>
+        <SFX name="Button Click" path="click.wav"/>
+    </SFXs>
+    <Images folder="data/images/">
+        <Image path="plus.png" link="https://www.iconfont.cn/collections/detail?cid=11253"/>
+         
+    </Images>
+-->
+    <Monsters file="data/images/Monsters.png" layout="4,6">
+        <Monster type="single" anim="0,1,2,3,4,5,6,7" attack="3,9,10,11,12,13" finish="13,14,15">
+        </Monster>
+        <Monster type="multi" anim="16,17,18,19" tail="8">
+        </Monster>
+    </Monsters>
+
+    <Fires folder="data/images/fire/" layout="10,6">
+        <Fire img="fire1_64.png" color="warm"/>
+        <Fire img="fire2_64.png" color="cold"/>
+        <Fire img="fire3_64.png" color="warm"/>
+        <Fire img="fire4_64.png" color="warm"/>
+        <Fire img="fire5_64.png" color="warm"/>
+        <Fire img="fire6_64.png" color="cold"/>
+        <Fire img="fire7_64.png" color="cold"/>
+        <Fire img="fire8_64.png" color="warm"/>
+    </Fires>
+
+    <Backgrounds folder="data/images/post-apocalyptic-backgrounds/">
+        <Background folder="Postapocalypce1/"
+            main="main.png"
+            floaty="clouds2.png"
+        />
+        <Background folder="Postapocalypce2/"
+            main="main.png"
+            floaty="birds.png"
+        />
+        <Background folder="Postapocalypce3/"
+            main="main.png"
+            floaty="moon.png"
+        />
+        <Background folder="Postapocalypce4/"
+            main="main.png"
+            floaty="wires.png"
+        />
+    </Backgrounds>
+</Assets>

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Music">
+      <UniqueIdentifier>{a19b3fd1-342f-4e83-976a-c7e42e73b4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{0850c8c7-00dc-4950-83dc-f78a612c69ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Song.cpp">
+      <Filter>Music</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleNote.cpp">
+      <Filter>Music</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiNotes.cpp">
+      <Filter>Music</Filter>
+    </ClCompile>
+    <ClCompile Include="Note.cpp">
+      <Filter>Music</Filter>
+    </ClCompile>
+    <ClCompile Include="SongManager.cpp">
+      <Filter>Music</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonList.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleButtonList.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Song.hpp">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleNote.hpp">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiNotes.hpp">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="Note.hpp">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="SongManager.hpp">
+      <Filter>Music</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonList.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleButtonList.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.hpp">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

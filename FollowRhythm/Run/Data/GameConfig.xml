@@ -1,0 +1,13 @@
+<!-- Buttons:
+	A/B/X/Y/Start/Back/DpadUp/DpadDown/DpadLeft/DpadRight/LB/RB -->
+<GameConfig
+	
+	windowHeightRatio="0.8"
+	windowAspect="1.777"
+	windowTitle="FollowRhythm"
+	assetsReading="data/assets.xml"
+
+	confirmButton="A"
+	backButton="B"
+	pauseButton="A"	
+/>

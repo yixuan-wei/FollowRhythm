@@ -1,0 +1,10 @@
+<SongInfo 
+    name="Your Name"
+    author="Vincent Augustus"
+    album="Your Name"
+    link="https://freemusicarchive.org/music/Vincent_Augustus/Your_Name_1208/your_name_1454"
+    genres="Pop,Soul-RnB,Hip-Hop"
+    length="01:00.525"
+    difficulty="Medium"
+    background="data/images/Your_Name.png">
+</SongInfo>
